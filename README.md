@@ -1,9 +1,9 @@
-# 👋 Hey there, I'm [Your Name Here]!
+# 👋 Hey there, I'm [Jimvhoy]!
 
 ## 🚀 About Me
 ```js
 const dev = {
-  name: "Your Name",
+  name: "Jimvhoy Amado",
   role: "Aspiring Full-Stack Developer",
   studying: "BS in Computer Science | Class of 2026",
   loves: ["Clean Code", "UI/UX", "Open Source"],
@@ -15,7 +15,7 @@ Frontend: HTML5, CSS3, JavaScript, Tailwind
 Backend: PHP, Node.js, MySQL
 Tools: Git, GitHub, VS Code, Figma, XAMPP
 
-📈 GitHub Stats
+
 
 
 📚 Learning Goals
