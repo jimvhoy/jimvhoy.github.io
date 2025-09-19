@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm [Jimvhoy]!
+# 👋 Hey there, I'm Jimvhoy!
 
 ## 🚀 About Me
 ```js
