@@ -5,7 +5,7 @@
 const dev = {
   name: "Jimvhoy Amado",
   role: "Aspiring Full-Stack Developer",
-  studying: "BS in Computer Science | Class of 2026",
+  studying: "BS in Information Technology | Class of 2025 to 2026",
   loves: ["Clean Code", "UI/UX", "Open Source"],
   funFact: "I drink coffee like it's water ☕",
   openTo: ["Internships", "Freelance Work", "Collabs"]
