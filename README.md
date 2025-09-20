@@ -32,8 +32,8 @@ You can watch me at:
 <a href="https://discord.com/users/YOUR_USER_ID" target="_blank">
   <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
 </a>
-<a href="https://play.google.com/store" target="_blank" title="Google Play Store">
-  <img src="https://img.icons8.com/color/48/google-play.png" alt="Google Play Store" />
+<a href="https://store.steampowered.com/" target="_blank" title="Steam">
+  <img src="https://img.icons8.com/color/48/steam.png" alt="Steam" />
 </a>
 
 
