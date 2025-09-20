@@ -28,6 +28,14 @@
 ✔ Docker 🐳
 ✔ Linux 🐧
 
+
+
+### 🚀 Goals
+### 🎓 Complete my degree with a portfolio of impactful, real-world projects
+### 🧠 Master back-end architecture and system design at an advanced level
+### 🛠 Develop and deploy full-stack applications used by real users
+### 🌍 Actively contribute to open source projects and engage with global dev communities
+
 ---
 ### 📲 My Socials :
 
