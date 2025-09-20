@@ -7,10 +7,14 @@ Sometimes I debug like it's a final boss raid.
 > “Eat. Play. Sleep. Repeat.”  
 
 ---
+### 📲 My Socials
 
-### 🎥 My Socials
-
-https://www.facebook.com/share/1GRrpxucui/
+<a href="https://www.facebook.com/your-facebook-username" target="_blank">
+  <img src="https://www.facebook.com/share/1GRrpxucui/" alt="Facebook" />
+</a>
+<a href="https://www.youtube.com/@your-channel-name" target="_blank">
+  <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
+</a>
 
 You can watch me at:  
 🎮 Twitch: [your-twitch-link]  
