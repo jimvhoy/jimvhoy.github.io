@@ -29,7 +29,11 @@ You can watch me at:
 
 ### 🎮 My Gaming Platforms
 
-- Discord: `your#tag`
+<a href="<a href="https://discord.com/users/YOUR_USER_ID" target="_blank">
+  <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
+</a>" target="_blank">
+  <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
+</a>
 - Riot Games: `[your Riot ID]`
 - Steam: [your-steam-link]
 - Roblox: [your-roblox-username or link]
