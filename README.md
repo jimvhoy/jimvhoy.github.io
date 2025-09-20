@@ -1,5 +1,10 @@
 # 👋 Hey there! I’m [KUREI] — Welcome to My Gaming & Coding Realm! 🎮💻
 
+
+<a href="https://icons8.com/icons/set/anime" target="_blank" title="Anime Icons by Icons8">
+  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-anime-anime-avatar-flaticons-lineal-color-flat-icons-5.png" alt="Anime Icon" />
+</a>
+
 Full-time gamer, part-time coder.  
 Learning new languages like unlocking skill trees.  
 Debugging? Just another raid boss to solo.
