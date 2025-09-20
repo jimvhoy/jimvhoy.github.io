@@ -1,10 +1,10 @@
 # 👋 Hey there! I’m [YourUsername] — Welcome to My Gaming & Coding Realm! 🎮💻
 
 Full-time gamer, part-time coder.  
-Currently exploring new programming languages while grinding through bugs like boss fights.  
-Sometimes I debug like it's a final boss raid.
+Learning new languages like unlocking skill trees.  
+Debugging? Just another raid boss to solo.
 
-> “Eat. Play. Sleep. Repeat.”  
+> Eat. Code. Game. Sleep.
 
 ---
 ### 📲 My Socials
