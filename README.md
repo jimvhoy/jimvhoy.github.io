@@ -2,7 +2,7 @@
 
 
 <a href="https://icons8.com/icons/set/anime" target="_blank" title="Anime Icons by Icons8">
-  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-anime-anime-avatar-flaticons-lineal-color-flat-icons-5.png" alt="Anime Icon" />
+  <img src="https://share.google/images/2RUR4bkYwTajhYOAm" />
 </a>
 
 Full-time gamer, part-time coder.  
