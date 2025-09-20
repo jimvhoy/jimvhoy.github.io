@@ -9,7 +9,7 @@ Debugging? Just another raid boss to solo.
 >" Eat. Code. Game. Sleep."
 
 ---
-### 📲 My Socials
+### 📲 My Socials :
 
 <a href="https://www.facebook.com/share/1GRrpxucui/" target="_blank">
   <img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook" />
@@ -29,7 +29,7 @@ Debugging? Just another raid boss to solo.
 
 ---
 
-### 🎮 My Gaming Platforms
+### 🎮 My Gaming Platforms :
 
 <a href="https://discord.com/users/YOUR_USER_ID" target="_blank">
   <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
