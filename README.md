@@ -15,7 +15,7 @@ Sometimes I debug like it's a final boss raid.
 <a href="https://www.youtube.com/@your-channel-name" target="_blank">
   <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
 </a>
-<a href="https://www.instagram.com/your_instagram_username/" target="_blank">
+<a href="https://www.instagram.com/jm_vhy?igsh=MXdmOTA3bjRubDZ5eQ==" target="_blank">
   <img src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="Instagram" />
 </a>
 
