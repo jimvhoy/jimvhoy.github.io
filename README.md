@@ -20,10 +20,10 @@ Debugging? Just another raid boss to solo.
 </a>
 
 You can watch me at:  
-🎮 Twitch: [your-twitch-link]  
-📺 YouTube: [your-youtube-link]  
-🐦 Twitter / X: [your-twitter-link]  
-📸 Instagram: [your-instagram-link]
+
+<a href="https://www.twitch.tv/your_username" target="_blank" title="Twitch">
+  <img src="https://img.icons8.com/ios-filled/50/9146FF/twitch.png" alt="Twitch" />
+</a>
 
 ---
 
