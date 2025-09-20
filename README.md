@@ -27,9 +27,7 @@ You can watch me at:
 
 ---
 
-### 📊 My GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=tokyonight)
 
 ---
 
