@@ -37,14 +37,3 @@ You can watch me at:
 </a>
 
 
----
-
-
-
----
-
-### 🙏 Credits
-
-Shoutout to **MishManners®™** AKA the *Hackathon Queen®™* for the original README inspo!
-
----
