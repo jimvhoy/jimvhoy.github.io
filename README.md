@@ -17,13 +17,13 @@
 ✔ Rust 🦀
 ✔ Currently Exploring Kotlin
 
-🌐 Web Development
+### 🌐 Web Development
 ✔ HTML
 ✔ CSS
 ✔ JavaScript
 ✔ React ⚛️
 
-📦 Tools & Platforms
+### 📦 Tools & Platforms
 ✔ Git
 ✔ Docker 🐳
 ✔ Linux 🐧
