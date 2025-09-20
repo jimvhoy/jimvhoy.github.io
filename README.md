@@ -7,7 +7,7 @@
 ### Debugging? Just another raid boss to solo.
 
 ### >" Eat. Code. Game. Sleep."
-
+---
 
 ### 🛠 Skills & Technologies
 
@@ -16,7 +16,7 @@
 ✔ Go
 ✔ Rust 🦀
 ✔ Currently Exploring Kotlin
-
+---
 ### 🌐 Web Development
 ✔ HTML
 ✔ CSS
@@ -28,7 +28,7 @@
 ✔ Docker 🐳
 ✔ Linux 🐧
 
-
+---
 
 ### 🚀 Goals
 ### 🎓 Complete my degree with a portfolio of impactful, real-world projects
