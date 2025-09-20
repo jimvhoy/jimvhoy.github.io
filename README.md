@@ -8,6 +8,25 @@
 
 ### >" Eat. Code. Game. Sleep."
 
+
+🛠 Skills & Technologies
+👨‍💻 Programming Languages
+✔ Python 🐍
+✔ Go
+✔ Rust 🦀
+✔ Currently Exploring Kotlin
+
+🌐 Web Development
+✔ HTML
+✔ CSS
+✔ JavaScript
+✔ React ⚛️
+
+📦 Tools & Platforms
+✔ Git
+✔ Docker 🐳
+✔ Linux 🐧
+
 ---
 ### 📲 My Socials :
 
