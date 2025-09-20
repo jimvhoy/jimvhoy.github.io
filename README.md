@@ -2,11 +2,11 @@
 
 
 
-Full-time gamer, part-time coder.  
-Learning new languages like unlocking skill trees.  
-Debugging? Just another raid boss to solo.
+### Full-time gamer, part-time coder.  
+### Learning new languages like unlocking skill trees.  
+### Debugging? Just another raid boss to solo.
 
->" Eat. Code. Game. Sleep."
+### >" Eat. Code. Game. Sleep."
 
 ---
 ### 📲 My Socials :
