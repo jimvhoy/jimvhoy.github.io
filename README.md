@@ -9,8 +9,9 @@
 ### >" Eat. Code. Game. Sleep."
 
 
-🛠 Skills & Technologies
-👨‍💻 Programming Languages
+### 🛠 Skills & Technologies
+
+### 👨‍💻 Programming Languages
 ✔ Python 🐍
 ✔ Go
 ✔ Rust 🦀
