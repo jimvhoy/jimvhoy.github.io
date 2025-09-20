@@ -1,4 +1,4 @@
-# 👋 Hey there! I’m [YourUsername] — Welcome to My Gaming & Coding Realm! 🎮💻
+# 👋 Hey there! I’m [KUREI] — Welcome to My Gaming & Coding Realm! 🎮💻
 
 Full-time gamer, part-time coder.  
 Learning new languages like unlocking skill trees.  
@@ -29,9 +29,7 @@ You can watch me at:
 
 ### 🎮 My Gaming Platforms
 
-<a href="<a href="https://discord.com/users/YOUR_USER_ID" target="_blank">
-  <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
-</a>" target="_blank">
+<a href="https://discord.com/users/YOUR_USER_ID" target="_blank">
   <img src="https://img.icons8.com/color/48/discord-logo.png" alt="Discord" />
 </a>
 - Riot Games: `[your Riot ID]`
