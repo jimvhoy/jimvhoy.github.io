@@ -10,6 +10,8 @@ Sometimes I debug like it's a final boss raid.
 
 ### 🎥 My Socials
 
+https://www.facebook.com/share/1GRrpxucui/
+
 You can watch me at:  
 🎮 Twitch: [your-twitch-link]  
 📺 YouTube: [your-youtube-link]  
