@@ -1,4 +1,4 @@
-# 👋 Hey there! I’m KUREI — Welcome to My Gaming & Coding Realm! 🎮💻
+# 👋 Hey there! I’m Jimvhoy — Welcome to My Gaming & Coding Realm! 🎮💻
 
 
 
