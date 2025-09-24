@@ -4,49 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color:blue;
+            font-family: sans-serif;
+        }
+
+        #background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .content {
+            text-align: center;
+			font-size: 50px;
+        }
+
+        h1 {
+            color:white;
+        }
+
+        h3 {
+            color: red;
+        }
+
+        p {
+            color: black;
+            text-align: justify;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button-container button:hover {
+            opacity: 0.8;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: white;
+            width: 50%;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 <body>
 
-    
-
-<style>
-
-		body{
+    <video autoplay loop muted playsinline id="background-video">
+        <source src="vid/2.vid.mp4" type="video/mp4">
+        
+        
 		
-			background-color:skyblue;
-		}
+    </video>
 
-	h1{
-		color:white;
-		text-align: center;
-	}
-	
-	h3{
-		text-align: center;
-		color: red;  
-	}
-	P{
-		color: black;
-		text-align:justify;
-	}
+    <div class="content">
+        <center>
+           
+            My Links
+            
+        </center>
 
+        <div class="button-container">
+            <button onclick="location.href='Amado_Resume.html';">Resume</button>
+            <button onclick="location.href='Gallery.html';">Gallery</button>
+        </div>
+    </div>
 
-    </style>
-
-<hr>
-My Links
-<hr>
-
-<a href="Amado_Resume.html"> My Resume</a>
-<a href="Gallery.html"> Gallery</a>
-<a href=""> About</a>
-<a href=""> Contact Us</a>
-
-
-
-    
-    
-    
-    
 </body>
 </html>
