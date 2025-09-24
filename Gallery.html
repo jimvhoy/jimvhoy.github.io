@@ -6,8 +6,8 @@
     <title>Gallery</title>
     <style>
         body {
-            margin: 0; 
-            overflow: hidden; 
+            margin: 0;
+            overflow: hidden;
         }
 
         .video-background {
@@ -32,20 +32,38 @@
         }
 
         .scroll-container {
-            background-color:black red;
-            overflow: hidden; 
+            background-color: black red;
+            overflow: hidden;
             white-space: nowrap;
             padding: 10px;
-            position: absolute; 
-            top: 50%;          
-            left: 50%;          
-            transform: translate(-50%, -50%); 
-            width: 100%;       
-            box-sizing: border-box; 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .scroll-container img {
-            margin: 0 10px; 
+            margin: 0 10px;
+        }
+
+        /* Style the Home button */
+        .home-button {
+            background-color: blue; /* Set background color to blue */
+            color: white; /* Set text color to white */
+            padding: 10px 20px; /* Add padding */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add rounded corners */
+            cursor: pointer; /* Change cursor to pointer */
+            position: absolute; /* Position the button */
+            top: 20px; /* Adjust the top position */
+            left: 20px; /* Adjust the left position */
+            z-index: 1; /* Ensure the button is above the video */
+        }
+
+        .home-button:hover {
+            opacity: 0.8; /* Add a hover effect */
         }
     </style>
 </head>
@@ -53,9 +71,12 @@
     <div class="video-background">
         <video autoplay loop muted playsinline>
             <source src="vid/1.vid.mp4" type="video/mp4">
-           
+
         </video>
     </div>
+
+    <!-- Apply the class to the button -->
+    <button class="home-button" onclick="location.href='index.html';">HOME</button>
 
     <div class="scroll-container">
         <marquee>
