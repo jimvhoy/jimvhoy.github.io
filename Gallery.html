@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <head>
+    <link rel="stylesheet" href="css/Midterm.css">
+    </head>
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Resume_Amado.html">Resume</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="video-background">
+        <video autoplay loop muted playsinline id="myVideo">
+            <source src="vid/5.vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="scroll-container">
+        <div class="image-wrapper">
+            <img src="img/1.new.jpg" alt="Image">
+            <img src="img/2.new.jpg" alt="Image">
+            <img src="img/3.new.jpg" alt="Image">
+            <img src="img/4.new.jpg" alt="Image">
+            <img src="img/5.new.jpg" alt="Image">
+            <img src="img/6.new.jpg" alt="Image">
+            <img src="img/7.new.jpg" alt="Image">
+            <img src="img/8.new.jpg" alt="Image">
+            <img src="img/9.new.jpg" alt="Image">
+            <img src="img/10.new.jpg" alt="Image">
+        </div>
+    </div>
+
+    <button id="pauseButton">Pause</button>
+
+    <footer>
+        <p>&copy; MIDTERM</p>
+    </footer>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("pauseButton");
+
+        btn.onclick = function() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        };
+    </script>
+</body>
+</html>
