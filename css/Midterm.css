@@ -1,68 +1,391 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-        <head>
-    <link rel="stylesheet" href="css/Midterm.css">
-    </head>
-    
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Resume_Amado.html">Resume</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
+/* about.html*/
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-    <main>
-        <div class="resume-container">
-            <h1>RESUME</h1>
-            <br>
+        header {
+            padding: 20px 0;
+            background-color: #87ceeb; 
+            text-align: center;
+        }
 
-            <center><img src="img/11.new.jpg" width="200" height="250"></center>
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block; 
+        }
 
-            <h1> jimvhoy Amado</h1>
-            <h1> 09086726533</h1>
-            <h1> jimvhoyamado990@gmail.com</h1>
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
 
-            <hr>
-            <h2>PERSONAL INFORMATION</h2>
-            <hr>
+        nav ul li a {
+            color: #ffffff; 
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
 
-            <h3> Jimvhoy Solibio Amado</h3>
-            <h3> October 8 2004</h3>
-            <h3> Canan Lapaz Abra</h3>
+        nav ul li a:hover {
+            background-color: #2980b9; 
+        }
 
-            <hr>
-            <h2>EDUCATIONAL BACKGROUND</h2>
-            <hr>
+        main {
+            flex: 1; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
-            <h1> Primary School: Canan Lapaz Abra</h1>
-            <h1> Year Graduated: 2015-2015</h1>
-            <h1> Secondary School: Western Abra National Highschool</h1>
-            <h1> YEar Graduated: 2021-2022</h1>
-            <h1> Tertiary School: Data center college of the philippines</h1>
-            <h1> course: Bachelor of Science Information Technology</h1>
-            <h1> Year: 2025-2026</h1>
+        .about-container {
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 20px;
+            padding: 40px;
+            width: 600px; 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+        }
 
-            <hr>
-            <h2>REFERENCES</h2>
-            <hr>
-            <h1> Name: Mr Gab Alfiler</h1>
-            <h1> Agency: NBI</h1>
-            <h1> Contact no:</h1>
-        </div>
-    </main>
+        .about-container h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
 
-    <footer>
-        <p>&copy;MIDTERM</p>
-    </footer>
-</body>
-</html>
+        .about-container p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #000000;
+            background-color: #87ceeb; 
+        }
+  
+        /*Gallery.html*/
+
+        
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; 
+            min-height: 100vh;
+            font-family: sans-serif;
+            background-color: #e0f2f1; 
+            color: #333;
+        }
+
+        header {
+            background-color: #87ceeb;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .scroll-container {
+            width: 90%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            padding-bottom: 5px;
+            z-index: 1;
+            margin-bottom: 20px;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin-top: 80px; 
+        }
+
+        .image-wrapper {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .scroll-container::-webkit-scrollbar {
+            height: 5px;
+            background-color: #f0f0f0;
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb {
+            background-color: #a0a0a0;
+            border-radius: 2.5px;
+            border: 1px solid #f0f0f0;
+        }
+
+        .scroll-container::-webkit-scrollbar-thumb:hover {
+            background-color: #777;
+        }
+
+        .scroll-container img {
+            width: 250px;
+            height: 200px;
+            border: 1px solid #ddd;
+            margin: 5px;
+            display: inline-block;
+            object-fit: cover;
+        }
+
+        #pauseButton {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            z-index: 2;
+            margin-bottom: 0; 
+        }
+
+        #pauseButton:hover {
+            background-color: #1e7e34;
+        }
+
+        footer {
+            background-color: #87ceeb; 
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: relative;
+            z-index: 3;
+            margin-top: auto; 
+        }
+
+        /* index.html*/
+
+       
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 20px 0;
+            background-color: skyblue; 
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 50px;
+            width: 500px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .welcome-container h1 {
+            font-size: 4em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .welcome-container p {
+            font-size: 1.6em;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #ffffff;
+            background-color: skyblue; 
+        }
+
+   /* Resume_Amado.html*/
+
+   
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #87ceeb; 
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff; 
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px; 
+            background-color: #3498db; 
+            transition: background-color 0.3s ease; 
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9; 
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .resume-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            width: 1000px; 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+            text-align: center; 
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #000000;
+            background-color: #87ceeb;
+        }
+  
