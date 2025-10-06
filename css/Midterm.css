@@ -1,130 +1,133 @@
-/* index.html*/
-
-body {
-            margin: 0;
-            overflow: hidden;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            font-family: sans-serif;
-        }
-
-        #background-video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            object-fit: cover;
-        }
-
-        .content {
-            text-align: center;
-            font-size: 50px;
-            color: white;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            z-index: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgba(139, 69, 19, 0.3);
-            backdrop-filter: blur(5px);
-        }
-
-        .button-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .button-container button {
-            background-color: rgba(160, 82, 45, 0.7); 
-            color:white;
-            padding: 10px 20px;
-            margin: 0 10px;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: transform 0.2s ease-out;
-        }
-
-        .button-container button:hover {
-            opacity: 0.8;
-            transform: scale(1.1);
-        }
-
-        #welcome-text {
-            font-size: 70px;
-            color: #CD7F32; 
-            position: static;
-            width: 100%;
-            text-align: center;
-            z-index: 2;
-
-        }
-
-        #my-links-text {
-            color: #CD7F32; 
-
-        }
-
-        /* Amado_Resume.html*/
-
-         h1 {
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
+/* about.html*/
         body {
-            background-color: rgb(254, 208, 123);
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
-        h3 {
+        header {
+            padding: 20px 0;
+            background-color: #87ceeb; 
             text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 12px; 
         }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff; 
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9; 
+        }
+
+        main {
+            flex: 1; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .about-container {
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 20px;
+            padding: 40px;
+            width: 600px; 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .about-container h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .about-container p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #000000;
+            background-color: #87ceeb; 
+        }
+  
+        /*Gallery.html*/
 
         
-        .button-container {
-            text-align: center; 
-            margin-top: 20px; 
-        }
-
-        .button-container button {
-            background-color: blue; 
-            color: white; 
-            padding: 10px 20px; 
-            border: none; 
-            border-radius: 5px; 
-            cursor: pointer; 
-        }
-
-        .button-container button:hover {
-            opacity: 0.8; 
-        }
-
-
-        /* Gallery.html*/
-
-          body {
+        body {
             margin: 0;
             overflow: hidden;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center; 
+            justify-content: flex-start; 
             min-height: 100vh;
+            font-family: sans-serif;
+            background-color: #e0f2f1; 
+            color: #333;
+        }
+
+        header {
+            background-color: #87ceeb;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9;
         }
 
         .video-background {
@@ -151,17 +154,15 @@ body {
             z-index: 1;
             margin-bottom: 20px;
             outline: none;
-
-            
             display: flex;
             align-items: center;
-            justify-content: flex-start; 
+            justify-content: center; 
+            margin-top: 80px; 
         }
 
-        
         .image-wrapper {
             display: inline-block;
-            text-align: center; 
+            text-align: center;
         }
 
         .scroll-container::-webkit-scrollbar {
@@ -188,20 +189,6 @@ body {
             object-fit: cover;
         }
 
-        .home-button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            z-index: 2;
-            margin-bottom: 10px;
-        }
-
-        .home-button:hover {
-            background-color: #0056b3;
-        }
-
         #pauseButton {
             padding: 10px 20px;
             background-color: #28a745;
@@ -209,21 +196,196 @@ body {
             border: none;
             cursor: pointer;
             z-index: 2;
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            margin-bottom: 0; 
         }
 
         #pauseButton:hover {
             background-color: #1e7e34;
         }
 
-        .button-container {
+        footer {
+            background-color: #87ceeb; 
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: relative;
+            z-index: 3;
+            margin-top: auto; 
+        }
+
+        /* home.html*/
+
+       
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333333;
+            line-height: 1.6;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            position: absolute;
-            top: 10px;
-            left: 10px;
+            min-height: 100vh;
         }
+
+        header {
+            padding: 20px 0;
+            background-color: skyblue; 
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .welcome-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 50px;
+            width: 500px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .welcome-container h1 {
+            font-size: 4em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .welcome-container p {
+            font-size: 1.6em;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #ffffff;
+            background-color: skyblue; 
+        }
+
+   /* Resume_Amado.html*/
+
+   
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #e0f2f1; 
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #87ceeb; 
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff; 
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px; 
+            background-color: #3498db; 
+            transition: background-color 0.3s ease; 
+        }
+
+        nav ul li a:hover {
+            background-color: #2980b9; 
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .resume-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            width: 1000px; 
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+            text-align: center; 
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #000000;
+            background-color: #87ceeb;
+        }
+  
