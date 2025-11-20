@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
-    <head>
-    <link rel="stylesheet" href="css/Midterm.css">
-    </head>
-   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cream Highlight Navigation Bar</title>
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Resume_Amado.html">Resume</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <div class="video-background">
-        <video autoplay loop muted playsinline id="myVideo">
-            <source src="vid/5.vid.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+  
+  <video autoplay loop muted id="background-video" playsinline>
+    <source src="vid/vid.1.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+ 
+  <button id="sound-toggle" aria-label="Toggle video sound" title="Toggle sound">
+    <i class="fa-solid fa-volume-xmark" aria-hidden="true"></i>
+  </button>
+
+  
+  <nav id="sidebar">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
 
-    <div class="scroll-container">
-        <div class="image-wrapper">
-            <img src="img/1.new.jpg" alt="Image">
-            <img src="img/2.new.jpg" alt="Image">
-            <img src="img/3.new.jpg" alt="Image">
-            <img src="img/4.new.jpg" alt="Image">
-            <img src="img/5.new.jpg" alt="Image">
-            <img src="img/6.new.jpg" alt="Image">
-            <img src="img/7.new.jpg" alt="Image">
-            <img src="img/8.new.jpg" alt="Image">
-            <img src="img/9.new.jpg" alt="Image">
-            <img src="img/10.new.jpg" alt="Image">
-        </div>
-    </div>
+    <div class="line"></div>
 
-    <button id="pauseButton">Pause</button>
+    <ul class="nav-links">
+      <li><a href="Index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="Gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a></li>
+      <li><a href="Portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+      <li><a href="Contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+  </nav>
 
-    <footer>
-        <p>&copy; MIDTERM</p>
-    </footer>
 
-    <script>
-        var video = document.getElementById("myVideo");
-        var btn = document.getElementById("pauseButton");
+  <div class="moving-container">
+    <img src="img/pic.2.jfif" alt="Moving">
+    <img src="img/pic.3.jfif" alt="Moving">
+    <img src="img/pic.4.jfif" alt="Moving">
+    <img src="img/pic.5.jfif" alt="Moving">
+    <img src="img/pic.6.jfif" alt="Moving">
+    <img src="img/pic.7.jfif" alt="Moving">
+    <img src="img/pic.8.jfif" alt="Moving">
+    <img src="img/pic.9.jfif" alt="Moving">
+    <img src="img/pic.10.jfif" alt="Moving">
+    <img src="img/pic.11.jfif" alt="Moving">
+    <img src="img/pic.12.jfif" alt="Moving">
+    <img src="img/pic.13.jfif" alt="Moving">
+  </div>
 
-        btn.onclick = function() {
-            if (video.paused) {
-                video.play();
-                btn.innerHTML = "Pause";
-            } else {
-                video.pause();
-                btn.innerHTML = "Play";
-            }
-        };
-    </script>
+  <script>
+    const video = document.getElementById('background-video');
+    const soundBtn = document.getElementById('sound-toggle');
+
+    
+    function updateSoundIcon() {
+      soundBtn.innerHTML = video.muted
+        ? '<i class="fa-solid fa-volume-xmark"></i>'
+        : '<i class="fa-solid fa-volume-high"></i>';
+    }
+    updateSoundIcon();
+
+    soundBtn.addEventListener('click', async () => {
+      
+      video.muted = !video.muted;
+      updateSoundIcon();
+
+      
+      if (!video.muted) {
+        try {
+          await video.play();
+        } catch (err) {
+          
+          console.warn('Video play prevented:', err);
+        }
+      }
+    });
+  </script>
+
 </body>
 </html>
