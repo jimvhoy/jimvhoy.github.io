@@ -1,35 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-   <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cream Highlight Navigation Bar</title>
 
-    <link rel="stylesheet" href="css/Midterm.css">
-    </head>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="Resume_Amado.html">Resume</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div class="welcome-container">
-            <h1>Welcome </h1>
-            <p>Simplifying the future through creative solutions in technology and design.</p>
-        </div>
-    </main>
+ 
+  <nav id="sidebar">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
 
-    <footer>
-        <p>&copy; MIDTERM </p>
-    </footer>
+    <div class="line"></div>
+
+    <ul class="nav-links">
+      <li><a href="Index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="Gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a></li>
+      <li><a href="Portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+      <li><a href="Contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+  </nav>
+
+  
+  <section class="hero-container">
+    <div class="hero-left">
+      <h1>Hi, I'm <span class="highlight-name">Jimvhoy Amado</span></h1>
+      <h3 class="role">Web Developer</h3>
+
+      <p class="hero-text">
+       I am a passionate and results oriented Web Developer dedicated to crafting exceptional digital experiences. My focus lies in building clean, responsive, and user-friendly websites that function seamlessly across all devices. I thrive on the process of transforming abstract ideas into concrete, interactive designs and am committed to continuously acquiring new skills to stay ahead in the rapidly evolving world of web development.
+      </p>
+
+      
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1BKbxdzNEk/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/jm_vhy/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:jimvhoyamado990@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/jimvhoy/jimvhoy.github.io.git"><i class="fa-brands fa-github"></i></a>
+     
+    </a>
+
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="image-circle">
+        <img src="img/pic.1.jfif" alt="Profile">
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const body = document.body;
+
+    menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('expanded');
+      body.classList.toggle('sidebar-expanded');
+    });
+  </script>
+
 </body>
 </html>
