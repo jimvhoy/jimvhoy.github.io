@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cream Highlight Navigation Bar</title>
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+
+
+  <nav id="sidebar">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <div class="line"></div>
+
+    <ul class="nav-links">
+      <li><a href="Index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="Gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a></li>
+      <li><a href="Portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+      <li><a href="Contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+  </nav>
+
+ 
+  <div class="contact-form">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p class="success-message" id="successMessage">Message Sent Successfully!</p>
+  </div>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const successMessage = document.getElementById('successMessage');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      successMessage.style.display = 'block';
+      form.reset();
+    });
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const body = document.body;
+
+    menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('expanded');
+      body.classList.toggle('sidebar-expanded');
+    });
+  </script>
+
+
+<footer style="
+  background:#367588;
+  color:white;
+  text-align:center;
+  padding:20px 10px;
+  margin-top:40px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;">
+  
+  <p style="font-size:16px; margin-bottom:10px;">Connect with me</p>
+
+  <div style="display:flex; gap:20px; font-size:24px;">
+    
+    <a href="mailto:jimvhoyamado990@gmail.com" style="color:white;">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    
+    <a href="https://www.facebook.com/share/1BKbxdzNEk/" target="_blank" style="color:white;">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+
+   
+    <a href="https://www.instagram.com/jm_vhy/" target="_blank" style="color:white;">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    
+    <a href="https://github.com/jimvhoy/jimvhoy.github.io.git" target="_blank" style="color:white;">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+
+  <p style="font-size:14px; margin-top:10px; opacity:0.8;">
+    © 2025 Jimvhoy Amado — All Rights Reserved
+  </p>
+</footer>
+
+</body>
+</html>
