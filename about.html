@@ -1,38 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cream Highlight Navigation Bar</title>
 
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet"href="css/Midterm.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    </head>
-    <link rel="stylesheet" href="css/Midterm.css">
-    
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li> 
-                <li><a href="Resume_Amado.html">Resume</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div class="about-container">
-            <h2>About Me</h2>
-            <p>I'm Jimvhoy s. Amado, an IT enthusiast driven by the challenge of crafting elegant solutions. I transform complex ideas into intuitive web experiences, merging cutting-edge technology with seamless UI/UX design.</p>
-        </div>
-    </main>
+  
+  <nav id="sidebar">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
 
-    <footer>
-        <p>&copy; MIDTERM</p>
-    </footer>
+    <div class="line"></div>
+
+    <ul class="nav-links">
+      <li><a href="Index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="Gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a></li>
+      <li><a href="Portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+      <li><a href="Contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+    </ul>
+  </nav>
+
+ 
+  <div class="content-container">
+    <h1>About This Activity</h1>
+    <p>
+      This activity is about creating an E-Portfolio, which serves as an online collection of my works, skills, and experiences as a IT student. 
+      The main purpose of this task is to help me build a professional digital portfolio that showcases who I am as a future Software Engineer or Web Developer. 
+    </p>
+
+    <p>
+      Through this project, I will apply my knowledge in HTML, CSS, and JavaScript to design an interactive and user-friendly website that reflects good UI/UX design principles. 
+      The portfolio will include my resume, introduction, projects, and work experiences—allowing others such as employers, teachers, or clients to easily see my qualifications and accomplishments.
+    </p>
+
+    <p>
+      Overall, this activity aims to prepare me for the professional world by helping me create an online platform that represents my identity, technical skills, and growth in the IT field.
+    </p>
+  </div>
+
+  <script>
+ 
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const body = document.body;
+
+    menuToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('expanded');
+      body.classList.toggle('sidebar-expanded');
+    });
+  </script>
+
+
+
+<footer style="
+  background:#367588;
+  color:white;
+  text-align:center;
+  padding:20px 10px;
+  margin-top:40px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;">
+  
+  <p style="font-size:16px; margin-bottom:10px;">Connect with me</p>
+
+  <div style="display:flex; gap:20px; font-size:24px;">
+    
+    <a href="mailto:jimvhoyamado990@gmail.com" style="color:white;">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+
+    
+    <a href="https://www.facebook.com/share/1BKbxdzNEk/" target="_blank" style="color:white;">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+
+   
+    <a href="https://www.instagram.com/jm_vhy/" target="_blank" style="color:white;">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    
+    <a href="https://github.com/jimvhoy/jimvhoy.github.io.git" target="_blank" style="color:white;">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+
+  <p style="font-size:14px; margin-top:10px; opacity:0.8;">
+    © 2025 Jimvhoy Amado — All Rights Reserved
+  </p>
+</footer>
+
 </body>
 </html>
+
