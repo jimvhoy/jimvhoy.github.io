@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cream Highlight Navigation Bar</title>
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+ 
+ 
+ 
+</head>
+<body>
+
+ 
+  <a href="Portfolio.html" class="back-btn" title="Go Back">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+
+  
+  <div class="ghost-container">
+    <h1>Online Reservation for MEJ Glass & Aluminum Supply</h1>
+
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="img/img.10.png" alt="Image 1">
+        <p> Clicking the start button redirects players to the campaign level.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.11.png" alt="Image 2">
+        <p>Selecting a level displays its description, difficulty, rewards, and start button.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.12.png" alt="Image 3">
+        <p>In the Main Menu, Survival mode lets players choose difficulty level.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.13.png" alt="Image 4">
+        <p>In Achievements, players navigate pages using Next and Previous buttons, viewing separate Survival and Campaign mode objectives.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.14.png" alt="Image 5">
+        <p>In the Main Menu, selecting Settings opens a window to configure game preferences.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.15.png" alt="Image 6">
+        <p>Worker units let players harvest resources, build, and repair structures, essential for kingdom survival.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.16.png" alt="Image 7">
+        <p> This is the Market, players can use gold to trade resources or sell resources to get gold.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.17.png" alt="Image 8">
+        <p>At night, skeletons attack the player’s base; players select units and right-click enemies to fight.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.18.png" alt="Image 9">
+        <p>In Campaign mode, completing a level successfully displays the victory screen.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <img id="lightbox-img" src="" alt="Expanded View">
+  </div>
+
+  <script>
+   
+    const images = document.querySelectorAll('.image-item img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('close-btn');
+
+    images.forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target !== lightboxImg) {
+        lightbox.classList.remove('active');
+      }
+    });
+  </script>
+
+</body>
+</html>
