@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cream Highlight Navigation Bar</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+
+  
+  <a href="Portfolio.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
+
+  
+  <div class="ghost-container">
+    <h1>Online Reservation for MEJ Glass & Aluminum Supply</h1>
+
+    
+    <div class="image-grid">
+      <div class="image-item">
+        <img src="img/img.7.png" alt="Image 1">
+        <p>Login page allows returning customers to access accounts and track orders.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.8.png" alt="Image 2">
+        <p>Registration form lets new customers create accounts and access services.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.1.png" alt="Image 3">
+        <p>Home Page introduces MEJ Glass, showcasing services, products, and key links.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.2.png" alt="Image 4">
+        <p>About Us highlights MEJ Glass’s custom solutions, quality, and customer trust.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.4.png" alt="Image 5">
+        <p>Products showcase MEJ Glass’s custom, durable, and high-quality solutions.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.5.png" alt="Image 6">
+        <p>Customers choose product options and reserve easily via a booking form</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.3.png" alt="Image 7">
+        <p>The Reservation Page lets customers easily book services with a simple form.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.9.png" alt="Image 8">
+        <p>Administrators manage and track reservations easily using a visual calendar.</p>
+      </div>
+      <div class="image-item">
+        <img src="img/img.6.png" alt="Image 9">
+        <p>The Payment Page lets customers choose their preferred method for reservations.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <img id="lightbox-img" src="" alt="Expanded View">
+  </div>
+
+  <script>
+    
+    const images = document.querySelectorAll('.image-item img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('close-btn');
+
+    images.forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target !== lightboxImg) {
+        lightbox.classList.remove('active');
+      }
+    });
+  </script>
+
+</body>
+</html>
